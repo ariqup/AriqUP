@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4b3f72, #2c2c3a);
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 30px 25px;
+  max-width: 360px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.foto-profil {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: #f0eaff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.card p {
+  text-align: left;
+  line-height: 1.8;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #e5e0f0;
+}
+
+.card p strong {
+  color: #c9b8f5;
+}
+
+.kontak-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.kontak-item:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.kontak-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.icon-email {
+  background: rgba(242, 139, 130, 0.2);
+  color: #f28b82;
+}
+
+.icon-wa {
+  background: rgba(37, 211, 102, 0.2);
+  color: #25d366;
+}
+
+.kontak-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.kontak-label {
+  font-size: 10px;
+  color: #c9b8f5;
+  margin-bottom: 2px;
+}
+
+.kontak-value {
+  font-size: 12px;
+  color: #f0eaff;
+}
+
+.btn-download {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #f0eaff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn-download:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.btn-download i {
+  margin-right: 6px;
+  color: #f0eaff;
+}
